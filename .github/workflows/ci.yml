@@ -14,5 +14,5 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Run basic check
+      - name: Run success message
         run: echo "✅ CI workflow ran successfully!"
